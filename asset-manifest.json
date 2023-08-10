@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pixellabassignment/static/css/main.1557eb59.css",
-    "main.js": "/pixellabassignment/static/js/main.4dd6d370.js",
-    "static/js/787.31a61f37.chunk.js": "/pixellabassignment/static/js/787.31a61f37.chunk.js",
-    "static/media/background.png": "/pixellabassignment/static/media/background.6632dc19a5073c53d98d.png",
-    "static/media/walking.gif": "/pixellabassignment/static/media/walking.1ec4f3f39e2f42e6f8a9.gif",
-    "index.html": "/pixellabassignment/index.html",
-    "main.1557eb59.css.map": "/pixellabassignment/static/css/main.1557eb59.css.map",
-    "main.4dd6d370.js.map": "/pixellabassignment/static/js/main.4dd6d370.js.map",
-    "787.31a61f37.chunk.js.map": "/pixellabassignment/static/js/787.31a61f37.chunk.js.map"
+    "main.css": "/pixelLabsAssignment/static/css/main.9a488614.css",
+    "main.js": "/pixelLabsAssignment/static/js/main.367fe68b.js",
+    "static/js/787.910eca46.chunk.js": "/pixelLabsAssignment/static/js/787.910eca46.chunk.js",
+    "static/media/background.png": "/pixelLabsAssignment/static/media/background.6632dc19a5073c53d98d.png",
+    "static/media/walking.gif": "/pixelLabsAssignment/static/media/walking.1ec4f3f39e2f42e6f8a9.gif",
+    "index.html": "/pixelLabsAssignment/index.html",
+    "main.9a488614.css.map": "/pixelLabsAssignment/static/css/main.9a488614.css.map",
+    "main.367fe68b.js.map": "/pixelLabsAssignment/static/js/main.367fe68b.js.map",
+    "787.910eca46.chunk.js.map": "/pixelLabsAssignment/static/js/787.910eca46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1557eb59.css",
-    "static/js/main.4dd6d370.js"
+    "static/css/main.9a488614.css",
+    "static/js/main.367fe68b.js"
   ]
 }
