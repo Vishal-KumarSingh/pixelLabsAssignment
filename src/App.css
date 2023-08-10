@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.header-text {
+  font-family: AlgorandPixel,monospace !important;
+}
+header {
+  width: 100%;
+  height: 10vh;
+}
+.header-logo {
+  width: 30%;
+  height: 10vh;
+  /* padding: 20px; */
+  padding-top: 5px;
+}
+
+.mobile {
+  display: none;
+}
+
+.logo {
+  height: 90%;
+}
+
+.nav-item-container {
+  padding: 30px;
+  width: 70%;
+  font-size: 25px;
+}
+
+.scrolling-image {
+  background-image: url('./background.png');
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
+  background-position: bottom left;
+  /* animation: mymove 5s linear infinite; */
+  background-repeat: repeat;
+  transition: background-position-x 500000000s;
+}
+  
+@keyframes mymove {
+  0% {
+    background-position-x: 0%;
+  }
+
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+main {
+  height: 90vh;
+  width: 100%;
+}
+
+.securetext {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page {
+  
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+z-index: 100;
+  top: 20vh;
+
+}
+
+.flexbuttons {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+
+.bg-brown {
+  background-color: rgb(85,58,28);
+  color: white;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+
+.textLarge {
+  font-size: 40px;
+}
+
+.walking-man {
+  width: 200px;
+  height: 200px;
+  background-image: url('./walking.gif');
+  position: fixed;
+  bottom: 0px;
+  left: 10%;
+  z-index: 10;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.folksfeed {
+   font-size: 20px;
+   width: 100%;
+   /* background-color: white; */
+   margin-top: 120px;
+   background-color: rgba(255, 255, 255, 0.5);
+   word-spacing: 10px;
+}
+
+.algorand {
+  font-size: 90px;
+}
+
+.secure {
+  font-size: 40px;
+}
+
+.mybtn {
+  padding: 15px;
+  font-weight: bold;
+  border: 5px solid white
+}
